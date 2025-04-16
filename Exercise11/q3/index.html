@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23BCE5036</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="time">X</p>
+    <form id="validationForm">
+        <label>Name*:</label>
+        <input type="text" id="name">
+        <br>
+
+        <label>Address:</label>
+        <textarea id="address"></textarea>
+        <br>
+
+        <label>Zip Code*:</label>
+        <input type="text" id="zipCode">
+        <br>
+
+        <label>Country*:</label>
+        <select id="country">
+            <option value="">Please select...</option>
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">USA</option>
+        </select>
+        <br>
+
+        <label>Gender*:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br>
+
+        <label>Preferences*:</label>
+        <input type="checkbox" name="preferences" value="Pink"> Pink
+        <input type="checkbox" name="preferences" value="Yellow"> Yellow
+        <input type="checkbox" name="preferences" value="Blue"> Blue
+        <br>
+
+        <label>Phone*:</label>
+        <input type="text" id="phone">
+        <br>
+
+        <label>Email*:</label>
+        <input type="email" id="email">
+        <br>
+
+        <label>Password (6-8 characters)*:</label>
+        <input type="password" id="password">
+        <br>
+
+        <label>Verify Password*:</label>
+        <input type="password" id="verifyPassword">
+        <br>
+
+        <label>PAN No:</label>
+        <input type="text" id="pan">
+        <br>
+
+        <button type="button" id="send">SEND</button>
+        <button type="reset">CLEAR</button>
+        <button type="button" id="print">PRINT</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

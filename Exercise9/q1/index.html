@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23BCE5036</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h2>Airline Seat Reservation System</h2>
+
+    <label for="passengerName">Enter Passenger Name:</label>
+    <input type="text" id="passengerName" required><br><br>
+
+    <label>Select Class:</label>
+    <select id="seatClass">
+        <option value="1">First-Class (Seats 1-5)</option>
+        <option value="2">Economy (Seats 6-10)</option>
+    </select><br><br>
+
+    <button onclick="assignSeat()">Book Seat</button>
+    <button onclick="resetSeats()">Reset Seats</button>
+
+    <h3>Boarding Pass</h3>
+    <pre id="boardingPass"></pre>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>23BCE5036</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="box1" class="box red">Box 1</div>
+    <div id="box2" class="box blue">Box 2</div>
+    <div id="box3" class="box green">Box 3</div>
+  </div>
+
+  <div class="controls">
+    <label for="elementSelect">Select Element:</label>
+    <select id="elementSelect">
+      <option value="box1">Box 1</option>
+      <option value="box2">Box 2</option>
+      <option value="box3">Box 3</option>
+    </select>
+
+    <label for="zIndexValue">Set Z-Index:</label>
+    <input type="number" id="zIndexValue" min="0" max="10" value="1">
+    <button onclick="changeZIndex()">Apply</button>
+  </div>
+
+  <div id="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
